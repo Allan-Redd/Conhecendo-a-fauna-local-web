@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="styles/cadastroStyle.css">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com">
+</head>
+<body>
+    <div class="register-container">
+        <h1>Registrar</h1>
+        <form id="registerForm">
+            <input type="text" id="email" placeholder="E-mail" required>
+            <input type="password" id="password" placeholder="Senha" required>
+            <button type="submit">Registrar</button>
+        </form>
+        <p>ou</p>
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+        <p id="message"></p>
+    </div>
+    <script src="js/cadastro.js"></script>
+</body>
+</html>
