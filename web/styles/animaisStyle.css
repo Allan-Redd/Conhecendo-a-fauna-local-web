@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+h1{
+   justify-content: center;
+   display: flex; 
+   margin-left: 200px;
+}
+
+a{
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Define a cor do texto como a cor do texto do elemento pai */
+    cursor: pointer; /* Mantém o cursor de link */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.menu-icon, .search-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #aaa;
+}
+
+
+.menu-icon, .search-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 10, 0.5);
+}
+
+.card img{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+p{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.home-icon {
+    font-size: 50px;
+    cursor: pointer;
+}
